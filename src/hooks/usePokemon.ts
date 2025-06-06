@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Pokemon, PokemonListResponse } from '@/types/pokemon';
+import { Pokemon } from '@/types/pokemon';
 import { getPokemonList, getPokemonDetails } from '@/lib/api';
 
 export function usePokemonList(limit: number = 20) {
