@@ -59,16 +59,47 @@ export default function PokemonDetail() {
       <div className="container mx-auto p-4">
         <Card>
           <CardHeader>
-            <Skeleton className="h-8 w-48" />
+            <div className="flex justify-between items-center">
+              <Skeleton className="h-8 w-48" />
+              <Skeleton className="h-6 w-16" />
+            </div>
+            <div className="flex gap-2 mt-2">
+              <Skeleton className="h-6 w-20" />
+              <Skeleton className="h-6 w-20" />
+            </div>
           </CardHeader>
           <CardContent>
-            <Skeleton className="h-64 w-full" />
-            <div className="mt-4 space-y-2">
-              <Skeleton className="h-4 w-full" />
-              <Skeleton className="h-4 w-full" />
-              <Skeleton className="h-4 w-full" />
+            <Skeleton className="w-full h-64 mb-6" />
+            <Separator className="my-6" />
+            <div className="space-y-4">
+              <div>
+                <Skeleton className="h-6 w-32 mb-4" />
+                <div className="grid grid-cols-2 gap-4">
+                  <Skeleton className="h-8 w-full" />
+                  <Skeleton className="h-8 w-full" />
+                  <Skeleton className="h-8 w-full" />
+                </div>
+              </div>
+              <Separator className="my-6" />
+              <div>
+                <Skeleton className="h-6 w-32 mb-4" />
+                <div className="space-y-4">
+                  {Array.from({ length: 6 }).map((_, i) => (
+                    <div key={i}>
+                      <div className="flex justify-between mb-1">
+                        <Skeleton className="h-4 w-24" />
+                        <Skeleton className="h-4 w-8" />
+                      </div>
+                      <Skeleton className="h-2 w-full" />
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </CardContent>
+          <CardFooter>
+            <Skeleton className="h-10 w-32" />
+          </CardFooter>
         </Card>
       </div>
     );
