@@ -6,7 +6,7 @@
 
 A modern Pokédex application built with Next.js 15, designed to help developers learn and practice modern web development concepts.
 
-[Live Demo](https://mini-pokedex-kohl.vercel.app)
+[✨ Try Live Demo](https://mini-pokedex-kohl.vercel.app) | [📱 Mobile Friendly](https://mini-pokedex-kohl.vercel.app)
 
 ### 🚀 Features
 
@@ -77,7 +77,7 @@ mini_pokedex/
 
 Una aplicación moderna de Pokédex construida con Next.js 15, diseñada para ayudar a los desarrolladores a aprender y practicar conceptos modernos de desarrollo web.
 
-[Demo en Vivo](https://mini-pokedex-kohl.vercel.app)
+[✨ Probar Demo en Vivo](https://mini-pokedex-kohl.vercel.app) | [📱 Versión Móvil](https://mini-pokedex-kohl.vercel.app)
 
 ### 🚀 Características
 
