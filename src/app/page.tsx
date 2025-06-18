@@ -40,7 +40,10 @@ export default function Home() {
 
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-8 text-center">Pokédex</h1>
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-bold mb-2">Mini Pokédex</h1>
+        <p className="text-muted-foreground">Explore the world of Pokémon with our interactive Pokédex</p>
+      </div>
       
       <div className="flex flex-col md:flex-row gap-4 mb-8">
         <Input
