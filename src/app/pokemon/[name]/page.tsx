@@ -79,7 +79,7 @@ export default function PokemonDetail() {
       <div className="container mx-auto p-4">
         <Alert>
           <AlertTitle>Pokemon not found</AlertTitle>
-          <AlertDescription>The Pokemon you're looking for doesn't exist.</AlertDescription>
+          <AlertDescription>The Pokemon you&apos;re looking for doesn&apos;t exist.</AlertDescription>
         </Alert>
         <div className="mt-4">
           <Link href="/">

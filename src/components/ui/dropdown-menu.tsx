@@ -17,9 +17,9 @@ export function DropdownMenu({ trigger, children, className }: DropdownMenuProps
   const enhancedChildren = React.Children.map(children, child => {
     if (
       React.isValidElement(child) &&
-      (child.type as any).displayName === 'DropdownMenuItem'
+      (child.type as React.ComponentType).displayName === 'DropdownMenuItem'
     ) {
-      return React.cloneElement(child as React.ReactElement<any>, { closeMenu: () => setOpen(false) });
+      return React.cloneElement(child as React.ReactElement<DropdownMenuItemProps>, { closeMenu: () => setOpen(false) });
     }
     return child;
   });
